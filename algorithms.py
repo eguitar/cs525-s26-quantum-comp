@@ -1,13 +1,10 @@
 """
-algorithms.py  --  CS525 Final Project
-Quantum algorithms built on top of QuantumCircuit.
-
 Algorithms:
-  1. Bell States          -- maximally entangled 2-qubit states
-  2. Quantum Teleportation -- transfer qubit state via entanglement
-  3. Deutsch-Jozsa        -- constant vs balanced in 1 query (exponential speedup)
-  4. Bernstein-Vazirani   -- recover hidden string in 1 query (linear speedup)
-  5. Grover's Search      -- find marked item in O(sqrt(N)) steps (quadratic speedup)
+  1. Bell States            -- maximally entangled 2-qubit states
+  2. Quantum Teleportation  -- transfer qubit state via entanglement
+  3. Deutsch-Jozsa          -- constant vs balanced in 1 query (exponential speedup)
+  4. Bernstein-Vazirani     -- recover hidden string in 1 query (linear speedup)
+  5. Grover's Search        -- find marked item in O(sqrt(N)) steps (quadratic speedup)
 """
 
 import numpy as np
